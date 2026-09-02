@@ -1,0 +1,14 @@
+[package]
+name = "saasy-proto-rust"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+mediasoup = "0.20"
+prost = "0.13"
+serde = { version = "1.0", features = ["derive"] }
+tonic = "0.13"
+thiserror = "2.0"
+
+[build-dependencies]
+tonic-build = "0.13"
